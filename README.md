@@ -31,7 +31,7 @@ driver = webdriver.Chrome(chrome_options=chop)
     chrome_options = Options()
     chrome_options.add_extension(path)
     self.driver = webdriver.Chrome(executable_path=path_to_chromedriver, chrome_options=chrome_options)
-
+```
 + with Shishito shishito.py
  ```
 def get_browser_profile(self, browser_type, capabilities):
@@ -40,6 +40,7 @@ def get_browser_profile(self, browser_type, capabilities):
         profile.add_argument('--ignore-certificate-errors')
         if crx_path:
             self.add_extension_to_browser(profile, crx_path)
+            
 def add_extension_to_browser(self, browser_profile, crx_path):
     """ Return browser profile updated with one or more extensions """
     browser_profile.add_extension(os.path.join(self.shishito_support.project_root, 'extension', crx_path))
