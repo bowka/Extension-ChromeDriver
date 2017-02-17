@@ -8,7 +8,19 @@ Chromedriver use ```*.crx ```
 Chrom extesions are also compatibile with other browsers than GoogleChrome. So first you need ```crx``` file
 
 + localy you test file in develop
+⋅⋅+ chrome://extensions
+⋅⋅+ developer mode
+⋅⋅+ load unpacked extension
+⋅⋅+ add crx file
+⋅⋅+ BOYAAH
+
 + download crx from existing extension from webstore
+⋅⋅+ goto webstore
+⋅⋅+ download Chrome extension source viewer
+⋅⋅ ```https://chrome.google.com/webstore/detail/chrome-extension-source-v/jifpbeccnghkjeaalbbjmodiffmgedin```
+⋅⋅+ goto webstor-> your extension page use CRX viewer 
+⋅⋅+ download as zip 
+⋅⋅+ work with extension as a local file
 
 Testing with/without Shishito
  
