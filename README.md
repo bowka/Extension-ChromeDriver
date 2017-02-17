@@ -5,7 +5,13 @@ FireFox use *.xpi
 Chromedriver use *.crx 
  
 withouth Shishito
- 
+```chop = webdriver.ChromeOptions()
+chop.add_extension(EXTENSION_PATH)
+driver = webdriver.Chrome(chrome_options=chop)
+```
+
+
+with shishito but still not correct 
  ```
  def start_browser(self):
     path = '/home/bowka/Salsita/letznav/LetzNav/player/build/letznav-player-0.1.0.crx'
