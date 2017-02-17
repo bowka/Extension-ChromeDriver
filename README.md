@@ -5,7 +5,8 @@ FireFox use *.xpi
 Chromedriver use *.crx 
  
 withouth Shishito
-```chop = webdriver.ChromeOptions()
+```
+chop = webdriver.ChromeOptions()
 chop.add_extension(EXTENSION_PATH)
 driver = webdriver.Chrome(chrome_options=chop)
 ```
