@@ -1,6 +1,12 @@
 # Extension-ChromeDriver
 ##how to add local/chromeStore extension into chrome driver
  
+ 
+first you need ```crx``` file to test
+there are two way-
+1. localy you test file in develop
+1. download crx from existing extension from webstore
+
 FireFox use *.xpi
 Chromedriver use *.crx 
  
